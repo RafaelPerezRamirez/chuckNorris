@@ -1,0 +1,17 @@
+.row{
+    justify-content: center;
+}
+.row .btn {
+    margin-right: 30px;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+.pointer{
+    cursor: pointer;
+}
+.content-joke{
+    margin-top: 30px;
+}
+.content-joke img{
+    margin-bottom: 20px;
+}

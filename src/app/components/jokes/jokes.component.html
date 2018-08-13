@@ -1,0 +1,14 @@
+<div class="row text-center">
+    <div
+    class="text-center btn btn-info pointer"
+    *ngFor="let joke of jokes"
+    (click)="getJoke(joke)">
+        {{joke}}
+    </div>
+</div>
+<div class="content-joke text-center" *ngIf="[jokeSimple?jokeSimple.id:''] != '' ">
+    <img [src]="jokeSimple?jokeSimple.icon_url:''" alt="">
+    <div class="alert alert-success">
+        {{jokeSimple?jokeSimple.value:""}}
+    </div>
+</div>
